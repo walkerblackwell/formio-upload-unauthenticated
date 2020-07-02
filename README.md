@@ -2,7 +2,7 @@ Form.io File Upload Server
 -------------------------
 This library provides an Upload Server/Proxy for use with the Form.io File Component and URL configuration. 
 
-This varient of Form.io's official MIT licensed work is for open source form.io. It is a NON-AUTHENTICATED upload handler so it should work with all versions of the url/upload file component of forn.io (something that is sorely missing from their official code.)
+This varient of Form.io's official MIT licensed work is for open source form.io. It is a NON-AUTHENTICATED upload handler so it should work with all versions of the url/upload file component of form.io (something that is sorely missing from their official code.)
 
 ## Getting Started
 This library can be ran within 3 different environments.
