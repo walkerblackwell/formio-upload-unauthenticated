@@ -6,7 +6,6 @@ docker run -itd \
   -e "DEBUG=*" \
   -e "PROVIDERS=file" \
   -e "UPLOAD_DIR=" \
-  -v /Users/Shared/Previously\ Relocated\ Items/Security/Development/formio-upload-unauthenticated/providers/uploads:/src/providers/uploads \
   --restart unless-stopped \
   --name formio-upload \
   -p 4100:4100 \
