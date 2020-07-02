@@ -66,9 +66,6 @@ RUN set -ex \
   # smoke test
   && yarn --version
 
-COPY ./ /src
-WORKDIR /src
-
 # Install git
 RUN apk update && \
     apk upgrade && \
