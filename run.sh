@@ -9,7 +9,7 @@ docker run -itd \
   --restart unless-stopped \
   --name formio-upload-unauthenticated \
   -p 4100:4100 \
-  walkerblackwell/formio-upload-unauthenticated
+  node
 
 
 

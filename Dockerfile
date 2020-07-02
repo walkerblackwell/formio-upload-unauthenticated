@@ -66,5 +66,13 @@ RUN set -ex \
   # smoke test
   && yarn --version
 
+COPY ./ /src
+WORKDIR /src
+
+# Install git
+RUN apk update && \
+    apk upgrade && \
+    apk add --no-cache --virtual .build-deps bash git make gcc g++ python
+
 EXPOSE      80
 ENTRYPOINT  ["node", "index"]
