@@ -7,9 +7,9 @@ docker run -itd \
   -e "PROVIDERS=file" \
   -e "UPLOAD_DIR=" \
   --restart unless-stopped \
-  --name formio-upload \
+  --name formio-upload-unauthenticated \
   -p 4100:4100 \
-  formio/formio-upload
+  walkerblackwell/formio-upload-unauthenticated
 
 
 
